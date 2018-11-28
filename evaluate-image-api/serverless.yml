@@ -47,7 +47,7 @@ functions:
   image:
     handler: handler.image
     events:
-      - http: GET image
+      - http: POST image
   donate:
     handler: donate.donate
     events:
