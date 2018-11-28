@@ -48,11 +48,16 @@ functions:
     handler: handler.image
     events:
       - http: POST image
+
   donate:
-    handler: donate.donate
+    handler: donate.getPolicyDecision
     events:
-      - http: GET donate
-        # Would also allow changes to donatable items later
+      - http: GET donate/policy
+
+  healthcheck:
+    handler: donate.healthcheck
+    events:
+      - http: GET donate/health
 
 #    The following are a few example events you can configure
 #    NOTE: Please make sure to change your handler code to work with those events
