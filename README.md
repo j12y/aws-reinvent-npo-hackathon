@@ -6,6 +6,16 @@
 * AWS setup: Serverless will use your AWS creds. For now (it's a hackathon) use an account with Admin.
 * From the `evaluate-image-api` directory run `serverless deploy -v`
 
+### Running locally
+
+You can run serverless locally during development before deploying to AWS:
+
+```
+sls invoke local -f donate -l
+```
+The `-f` identifies the function to run and `-l` will output any `console.log()`
+calls to terminal.
+
 ## Helpful Links
 
 DevPost with Challenges
