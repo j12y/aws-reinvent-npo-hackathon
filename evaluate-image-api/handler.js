@@ -11,12 +11,14 @@ module.exports.image = async (event, context) => {
     "Image": {
        "Bytes": new Buffer(event.body, 'base64'),
     },
-    MaxLabels: 1,
+    MaxLabels: 3,
+    MinConfidence: 90.0,
   }).promise()
     .then(data => {
       console.log('success', data);
-      const firstName = get(data, 'Labels[0].Name', 'Unknown');
-      const result = {result: firstName};
+      const labels = get(data, 'Labels', []);
+      const names = labels.map(label => label.Name).join(',')
+      const result = {result: names};
       return {
         statusCode: 200,
         body: JSON.stringify(result),
