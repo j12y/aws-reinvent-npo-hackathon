@@ -9,18 +9,20 @@ var guide = JSON.parse(data);
 //
 // GET /donate/policy?name=Toaster
 module.exports.getPolicyDecision = async (event, context) => {
-    var query = event.queryStringParameters["item"];
-    var result = false;
+    let query = event.queryStringParameters["item"].toLowerCase();
+    let result = false;
+    let value = '0.00'
 
-    if (guide["accept"].indexOf(query) >= 0) {
+    if (Object.keys(guide['accept']).indexOf(query) >= 0) {
         result = true;
+        value = guide['accept'][query]['value'];
     }
 
     return {
         statusCode: 200,
         body: JSON.stringify({
             accepted: result,
-            value: '0.0'
+            value: value
         })
     }
 }

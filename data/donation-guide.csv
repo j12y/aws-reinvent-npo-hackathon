@@ -1,113 +1,113 @@
-﻿Category,Item, Price ,Aliases,Decision
-Bedding,Bath Towel,$1.99 ,,Accept
-Bedding,Bedspreads,$6.99 ,Linens,Accept
-Bedding,Blankets,$3.99 ,Linens,Accept
-Bedding,Comforter,$6.99 ,,Accept
-Bedding,Curtains,$2.99 ,Domestics,Accept
-Bedding,Drapes,$4.99 ,Domestics,Accept
-Bedding,Pillows,$2.99 ,,Accept
-Bedding,Sheets,$2.99 ,,Accept
-Bedding,Throw Rug,$3.99 ,,Accept
-Media,CD,$1.99 ,,Accept
-Media,DVD,$1.99 ,,Accept
-Media,Childrens,$0.59 ,,Accept
-Media,"Book, Hard Cover",$1.79 ,Books,Accept
-Media,"Book, Soft Cover",$0.89 ,Books,Accept
+﻿Category,Item,  Price  ,Aliases,Decision
+Bedding,Bath Towel, 1.99 ,,Accept
+Bedding,Bedspreads, 6.99 ,Linens,Accept
+Bedding,Blankets, 3.99 ,Linens,Accept
+Bedding,Comforter, 6.99 ,,Accept
+Bedding,Curtains, 2.99 ,Domestics,Accept
+Bedding,Drapes, 4.99 ,Domestics,Accept
+Bedding,Pillows, 2.99 ,,Accept
+Bedding,Sheets, 2.99 ,,Accept
+Bedding,Throw Rug, 3.99 ,,Accept
+Media,CD, 1.99 ,,Accept
+Media,DVD, 1.99 ,,Accept
+Media,Childrens, 0.59 ,,Accept
+Media,"Book, Hard Cover", 1.79 ,Books,Accept
+Media,"Book, Soft Cover", 0.89 ,Books,Accept
 Media,Record,,,Accept
-Media,VHS,$0.50 ,,Accept
+Media,VHS, 0.50 ,,Accept
 Clothing,Hats,,,Accept
 Clothing,Scarves,,,Accept
 Clothing,Gloves,,Mittens,Accept
-Clothing,Blazer,$5.99 ,Sport Coat,Accept
-Clothing,"Winter Coat, Children",$4.99 ,Coat,Accept
-Clothing,"Winter Coat, Adult",$12.99 ,Coat,Accept
-Clothing,"Dress, Children",$4.99 ,Dress,Accept
-Clothing,"Dress, Adult",$5.99 ,Dress,Accept
-Clothing,"Jacket, Children",$2.99 ,Jacket,Accept
-Clothing,"Jacket, Adult",$4.99 ,Jacket,Accept
-Clothing,"Jeans, Children",$2.99 ,Jeans,Accept
-Clothing,"Jeans, Adult",$2.99 ,Jeans,Accept
-Clothing,"Jogging Set, Children",$3.99 ,Jog Set,Accept
-Clothing,"Jogging Set, Adult",$4.99 ,Jog Set,Accept
-Clothing,"Pants, Children",$2.99 ,Pants,Accept
-Clothing,"Pants, Adult",$3.99 ,Pants,Accept
-Clothing,"Shirt, Children",$1.50 ,Shirt,Accept
-Clothing,"Shirt, Adult",$2.99 ,Shirt,Accept
-Clothing,"Shorts, Children",$2.99 ,Shorts,Accept
-Clothing,"Shorts, Adult",$3.99 ,Shorts,Accept
-Clothing,"Skirts, Children",$2.99 ,Skirts,Accept
-Clothing,"Skirts, Adult",$4.99 ,Skirts,Accept
-Clothing,"Sleepwear, Children",$1.50 ,Sleepwear,Accept
-Clothing,"Sleepwear, Adult",$2.99 ,Sleepwear,Accept
-Clothing,"Suit, Children",$2.99 ,Suit,Accept
-Clothing,"Suit, Adult",$9.99 ,Suit,Accept
-Clothing,"Sweater, Children",$2.99 ,Sweater,Accept
-Clothing,"Sweater, Adult",$4.99 ,Sweater,Accept
-Clothing,"Sweatshirt, Children",$2.99 ,Sweatshirt,Accept
-Clothing,"Sweatshirt, Adult",$3.99 ,Sweatshirt,Accept
-Cookware,Canning Jar,$0.50 ,,Accept
-Cookware,Coffee Mug,$0.50 ,,Accept
-Cookware,Cookie Tin,$0.50 ,,Accept
-Cookware,Gadget,$0.50 ,,Accept
-Cookware,Glass,$0.50 ,Glassware,Accept
-Cookware,Plastics,$0.50 ,,Accept
-Cookware,Plate,$0.99 ,Dishes,Accept
-Cookware,Pot,$2.99 ,,Accept
-Cookware,Pan,$2.99 ,,Accept
-Cookware,Saucer,$0.50 ,,Accept
-Cookware,Serving Piece,$1.99 ,,Accept
-Cookware,Silverware,$0.10 ,utensils,Accept
-Electronics,Coffee Maker,$4.99 ,,Accept
-Electronics,Crock Pot,$3.99 ,,Accept
-Electronics,Electric Skillet,$2.99 ,,Accept
-Electronics,Hard Drive,$9.99 ,,Accept
-Electronics,Keyboard,$2.99 ,,Accept
-Electronics,Lamp,$3.99 ,"lamps, housewares",Accept
-Electronics,Laptop,$9.99 ,,Accept
-Electronics,Microwave,$6.99 ,,Accept
-Electronics,Monitor,$2.99 ,,Accept
-Electronics,Mouse,$1.99 ,,Accept
-Electronics,Printer,$3.99 ,,Accept
-Electronics,Radio,$1.99 ,,Accept
-Electronics,Scanner,$4.99 ,,Accept
-Electronics,Stereo,$4.99 ,,Accept
-Electronics,Toaster,$2.99 ,,Accept
-Electronics,TV,$2.99 ,television,Reject
-Electronics,DVD Player,$2.99 ,,Accept
-Electronics,VCR,$2.99 ,,Accept
-Furniture,Chair,$14.99 ,,Accept
-Furniture,Chest,$9.99 ,,Accept
-Furniture,China Cabinet,$29.99 ,,Accept
-Furniture,Coffee Table,$12.99 ,,Accept
-Furniture,Desk,$9.99 ,,Accept
-Furniture,Dresser,$39.99 ,,Accept
-Furniture,End Table,$9.99 ,,Accept
-Furniture,Head & Foot Board,$19.99 ,bedframe,Accept
-Furniture,Kitchen Chair,$6.99 ,,Accept
-Furniture,Sofa,$6.99 ,couch,Accept
-Furniture,Kitchen Table,$29.99 ,,Accept
-Accessories,Belt,$0.99 ,,Accept
-Accessories,"Boots, Children",$3.99 ,,Accept
-Accessories,"Boots, Adult",$4.99 ,,Accept
-Accessories,Jewelry,$1.99 ,,Accept
-Accessories,Purse,$3.99 ,,Accept
-Accessories,"Shoes, Children",$2.99 ,,Accept
-Accessories,"Shoes, Adult",$4.99 ,,Accept
-Accessories,Watch,$1.99 ,,Accept
-Sporting,Bicycle,$9.99 ,,Accept
-Sporting,Exercise Equipment,$14.99 ,,Accept
-Sporting,Golf Club,$1.99 ,,Accept
-Sporting,Ice Skates,$2.99 ,,Accept
-Sporting,Roller Skates,$2.99 ,,Accept
-Sporting,Skis,$4.99 ,,Accept
-Sporting,Sled,$3.99 ,,Accept
-Sporting,Tennis Racket,$1.99 ,,Accept
-Toys,Computer Game,$2.99 ,,Accept
-Toys,Dolls,$0.99 ,,Accept
-Toys,Games,$0.99 ,Board Game,Accept
-Toys,Puzzles,$0.99 ,,Accept
-Toys,Stuffed Animals,$0.50 ,,Accept
-Toys,Toys,$0.50 ,,Accept
+Clothing,Blazer, 5.99 ,Sport Coat,Accept
+Clothing,"Winter Coat, Children", 4.99 ,Coat,Accept
+Clothing,"Winter Coat, Adult", 12.99 ,Coat,Accept
+Clothing,"Dress, Children", 4.99 ,Dress,Accept
+Clothing,"Dress, Adult", 5.99 ,Dress,Accept
+Clothing,"Jacket, Children", 2.99 ,Jacket,Accept
+Clothing,"Jacket, Adult", 4.99 ,Jacket,Accept
+Clothing,"Jeans, Children", 2.99 ,Jeans,Accept
+Clothing,"Jeans, Adult", 2.99 ,Jeans,Accept
+Clothing,"Jogging Set, Children", 3.99 ,Jog Set,Accept
+Clothing,"Jogging Set, Adult", 4.99 ,Jog Set,Accept
+Clothing,"Pants, Children", 2.99 ,Pants,Accept
+Clothing,"Pants, Adult", 3.99 ,Pants,Accept
+Clothing,"Shirt, Children", 1.50 ,Shirt,Accept
+Clothing,"Shirt, Adult", 2.99 ,Shirt,Accept
+Clothing,"Shorts, Children", 2.99 ,Shorts,Accept
+Clothing,"Shorts, Adult", 3.99 ,Shorts,Accept
+Clothing,"Skirts, Children", 2.99 ,Skirts,Accept
+Clothing,"Skirts, Adult", 4.99 ,Skirts,Accept
+Clothing,"Sleepwear, Children", 1.50 ,Sleepwear,Accept
+Clothing,"Sleepwear, Adult", 2.99 ,Sleepwear,Accept
+Clothing,"Suit, Children", 2.99 ,Suit,Accept
+Clothing,"Suit, Adult", 9.99 ,Suit,Accept
+Clothing,"Sweater, Children", 2.99 ,Sweater,Accept
+Clothing,"Sweater, Adult", 4.99 ,Sweater,Accept
+Clothing,"Sweatshirt, Children", 2.99 ,Sweatshirt,Accept
+Clothing,"Sweatshirt, Adult", 3.99 ,Sweatshirt,Accept
+Cookware,Canning Jar, 0.50 ,,Accept
+Cookware,Coffee Mug, 0.50 ,,Accept
+Cookware,Cookie Tin, 0.50 ,,Accept
+Cookware,Gadget, 0.50 ,,Accept
+Cookware,Glass, 0.50 ,Glassware,Accept
+Cookware,Plastics, 0.50 ,,Accept
+Cookware,Plate, 0.99 ,Dishes,Accept
+Cookware,Pot, 2.99 ,,Accept
+Cookware,Pan, 2.99 ,,Accept
+Cookware,Saucer, 0.50 ,,Accept
+Cookware,Serving Piece, 1.99 ,,Accept
+Cookware,Silverware, 0.10 ,utensils,Accept
+Electronics,Coffee Maker, 4.99 ,,Accept
+Electronics,Crock Pot, 3.99 ,,Accept
+Electronics,Electric Skillet, 2.99 ,,Accept
+Electronics,Hard Drive, 9.99 ,,Accept
+Electronics,Keyboard, 2.99 ,,Accept
+Electronics,Lamp, 3.99 ,"lamps, housewares",Accept
+Electronics,Laptop, 9.99 ,,Accept
+Electronics,Microwave, 6.99 ,,Accept
+Electronics,Monitor, 2.99 ,,Accept
+Electronics,Mouse, 1.99 ,,Accept
+Electronics,Printer, 3.99 ,,Accept
+Electronics,Radio, 1.99 ,,Accept
+Electronics,Scanner, 4.99 ,,Accept
+Electronics,Stereo, 4.99 ,,Accept
+Electronics,Toaster, 2.99 ,,Accept
+Electronics,TV, 2.99 ,television,Reject
+Electronics,DVD Player, 2.99 ,,Accept
+Electronics,VCR, 2.99 ,,Accept
+Furniture,Chair, 14.99 ,,Accept
+Furniture,Chest, 9.99 ,,Accept
+Furniture,China Cabinet, 29.99 ,,Accept
+Furniture,Coffee Table, 12.99 ,,Accept
+Furniture,Desk, 9.99 ,,Accept
+Furniture,Dresser, 39.99 ,,Accept
+Furniture,End Table, 9.99 ,,Accept
+Furniture,Head & Foot Board, 19.99 ,bedframe,Accept
+Furniture,Kitchen Chair, 6.99 ,,Accept
+Furniture,Sofa, 6.99 ,couch,Accept
+Furniture,Kitchen Table, 29.99 ,,Accept
+Accessories,Belt, 0.99 ,,Accept
+Accessories,"Boots, Children", 3.99 ,,Accept
+Accessories,"Boots, Adult", 4.99 ,,Accept
+Accessories,Jewelry, 1.99 ,,Accept
+Accessories,Purse, 3.99 ,backpack,Accept
+Accessories,"Shoes, Children", 2.99 ,,Accept
+Accessories,"Shoes, Adult", 4.99 ,,Accept
+Accessories,Watch, 1.99 ,,Accept
+Sporting,Bicycle, 9.99 ,,Accept
+Sporting,Exercise Equipment, 14.99 ,,Accept
+Sporting,Golf Club, 1.99 ,,Accept
+Sporting,Ice Skates, 2.99 ,,Accept
+Sporting,Roller Skates, 2.99 ,,Accept
+Sporting,Skis, 4.99 ,,Accept
+Sporting,Sled, 3.99 ,,Accept
+Sporting,Tennis Racket, 1.99 ,,Accept
+Toys,Computer Game, 2.99 ,,Accept
+Toys,Dolls, 0.99 ,,Accept
+Toys,Games, 0.99 ,Board Game,Accept
+Toys,Puzzles, 0.99 ,,Accept
+Toys,Stuffed Animals, 0.50 ,,Accept
+Toys,Toys, 0.50 ,,Accept
 Sporting,Sporting Equipment,,,Accept
 Collectibles,Collectibles,,,Accept
 Antiques,Antiques,,,Accept
@@ -115,6 +115,7 @@ Knickknacks,KnickKnacks,,,Accept
 Tools,Hand Tools,,,Accept
 Tools,Power Tools,,,Accept
 Vehicles,Vehicles,,,Accept
+Electronics,Computer,,PC,Accept
 Electronics,Camcorder,,,Accept
 Electronics,Electronic Game,,,Accept
 Electronics,Remote Control,,,Accept
@@ -136,7 +137,7 @@ Electronics,CPU,,Server,Accept
 Electronics,Flat Screen Monitor,,,Accept
 Electronics,Modem,,,Accept
 Electronics,PDA,,,Accept
-Electronics,,,,Accept
+Electronics,Electronics,,,Accept
 Electronics,Network Switch,,,Accept
 Electronics,CRT Monitor,,,Reject
 Furniture,Crib,,,Reject

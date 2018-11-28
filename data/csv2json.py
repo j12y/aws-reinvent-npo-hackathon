@@ -4,8 +4,8 @@ import csv
 import json
 
 guide = {
-    'accept': [],
-    'reject': [],
+    'accept': {},
+    'reject': {}
 }
 
 with open('donation-guide.csv', 'r') as csvfile:
@@ -13,12 +13,27 @@ with open('donation-guide.csv', 'r') as csvfile:
         reader = csv.reader(csvfile)
         for row in reader:
             decision = row[4]
-            item = row[1]
+            item = row[1].lower()
+            aliases = row[3].lower()
+            category = row[0].lower()
+            details = {
+                'price': row[2].strip(),
+                'aliases': aliases,
+                'category': category,
+                }
+
+            if not item: continue
 
             if decision == 'Accept':
-                guide['accept'].append(item)
+                guide['accept'][item] = details
+                for alias in aliases.split(','):
+                    guide['accept'][alias.lower()] = details
+                    guide['accept'][category] = {}
             else:
-                guide['reject'].append(item)
+                guide['reject'][item] = details
+                for alias in aliases.split(','):
+                    guide['reject'][alias.lower()] = details
+                    guide['reject'][category] = {}
 
         json.dump(guide, jsonfile)
 
