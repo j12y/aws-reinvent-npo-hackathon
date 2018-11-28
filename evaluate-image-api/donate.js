@@ -11,11 +11,11 @@ var guide = JSON.parse(data);
 module.exports.getPolicyDecision = async (event, context) => {
     let query = event.queryStringParameters["item"].toLowerCase();
     let result = false;
-    let value = '0.00'
-
+    let value = '0.00';
+    
     if (Object.keys(guide['accept']).indexOf(query) >= 0) {
         result = true;
-        value = guide['accept'][query]['value'];
+        value = guide['accept'][query]['price'];
     }
 
     return {
