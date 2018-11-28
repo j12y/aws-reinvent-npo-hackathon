@@ -11,6 +11,7 @@ guide = {
 with open('donation-guide.csv', 'r') as csvfile:
     with open('donation-guide.json', 'w') as jsonfile:
         reader = csv.reader(csvfile)
+        next(reader, None) # skip headers
         for row in reader:
             decision = row[4]
             item = row[1].lower()
@@ -33,7 +34,6 @@ with open('donation-guide.csv', 'r') as csvfile:
                 guide['reject'][item] = details
                 for alias in aliases.split(','):
                     guide['reject'][alias.lower()] = details
-                    guide['reject'][category] = {}
 
         json.dump(guide, jsonfile)
 
