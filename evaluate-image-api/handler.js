@@ -1,6 +1,8 @@
 'use strict';
 
 const AWS = require('aws-sdk');
+const get = require('lodash.get');
+
 const rekognition = new AWS.Rekognition();
 
 module.exports.image = async (event, context) => {
@@ -8,13 +10,16 @@ module.exports.image = async (event, context) => {
   return rekognition.detectLabels({
     "Image": {
        "Bytes": new Buffer(event.body, 'base64'),
-    }
+    },
+    MaxLabels: 1,
   }).promise()
     .then(data => {
       console.log('success', data);
+      const firstName = get(data, 'Labels[0].Name', 'Unknown');
+      const result = {result: firstName};
       return {
         statusCode: 200,
-        body: JSON.stringify(data),
+        body: JSON.stringify(result),
       };
     })
     .catch(err => {
