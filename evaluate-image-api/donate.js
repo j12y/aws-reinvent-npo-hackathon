@@ -12,11 +12,13 @@ module.exports.getPolicyDecision = async (event, context) => {
     let query = event.queryStringParameters["item"].toLowerCase();
     let result = false;
     let value = '0.00';
-    
-    if (Object.keys(guide['accept']).indexOf(query) >= 0) {
-        result = true;
-        value = guide['accept'][query]['price'];
-    }
+
+    query.split(',').forEach(function(query) {
+        if (Object.keys(guide['accept']).indexOf(query) >= 0) {
+            result = true;
+            value = guide['accept'][query]['price'] || '0.00';
+        }
+    });
 
     return {
         statusCode: 200,
