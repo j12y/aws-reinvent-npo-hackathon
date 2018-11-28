@@ -1,22 +1,22 @@
 ﻿Category,Item,  Price  ,Aliases,Decision
-Bedding,Bath Towel, 1.99 ,,Accept
+Bedding,Bath Towel, 1.99 ,towel,Accept
 Bedding,Bedspreads, 6.99 ,Linens,Accept
 Bedding,Blankets, 3.99 ,Linens,Accept
 Bedding,Comforter, 6.99 ,,Accept
-Bedding,Curtains, 2.99 ,Domestics,Accept
+Bedding,Curtains, 2.99 ,"Domestics,curtain",Accept
 Bedding,Drapes, 4.99 ,Domestics,Accept
-Bedding,Pillows, 2.99 ,,Accept
-Bedding,Sheets, 2.99 ,,Accept
-Bedding,Throw Rug, 3.99 ,,Accept
-Media,CD, 1.99 ,,Accept
+Bedding,Pillows, 2.99 ,pillow,Accept
+Bedding,Sheets, 2.99 ,sheet,Accept
+Bedding,Throw Rug, 3.99 ,rug,Accept
+Media,CD, 1.99 ,compact disk,Accept
 Media,DVD, 1.99 ,,Accept
 Media,Childrens, 0.59 ,,Accept
 Media,"Book, Hard Cover", 1.79 ,Books,Accept
 Media,"Book, Soft Cover", 0.89 ,Books,Accept
-Media,Record,,,Accept
+Media,Record,,records,Accept
 Media,VHS, 0.50 ,,Accept
-Clothing,Hats,,,Accept
-Clothing,Scarves,,,Accept
+Clothing,Hats,,hat,Accept
+Clothing,Scarves,,scarve,Accept
 Clothing,Gloves,,Mittens,Accept
 Clothing,Blazer, 5.99 ,Sport Coat,Accept
 Clothing,"Winter Coat, Children", 4.99 ,Coat,Accept
@@ -62,7 +62,7 @@ Electronics,Crock Pot, 3.99 ,,Accept
 Electronics,Electric Skillet, 2.99 ,,Accept
 Electronics,Hard Drive, 9.99 ,,Accept
 Electronics,Keyboard, 2.99 ,,Accept
-Electronics,Lamp, 3.99 ,"lamps, housewares",Accept
+Electronics,Lamp, 3.99 ,"lamps,housewares",Accept
 Electronics,Laptop, 9.99 ,,Accept
 Electronics,Microwave, 6.99 ,,Accept
 Electronics,Monitor, 2.99 ,,Accept
@@ -159,6 +159,7 @@ Appliances,Dehumidifier,,,Reject
 Appliances,Furnace,,,Reject
 Appliances,Trash Compactor,,,Reject
 Appliances,Water Heater,,,Reject
+Appliances,Appliances,,,Reject
 Personal Care,Shampoo,,,Reject
 Personal Care,Conditioner,,,Reject
 Personal Care,Shaving Cream,,,Reject
